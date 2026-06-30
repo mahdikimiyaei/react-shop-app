@@ -71,7 +71,7 @@ export default function OrdersProvider({ children }: { children: ReactNode }) {
 
     const totalPrice = useMemo(() => {
         if (orders.length > 0) {
-            return orders.reduce((sum1, order) => sum1 + order.price, 0)
+            return orders.reduce((sum, order) => sum + order.price, 0)
         }
         else {
             return 0;
