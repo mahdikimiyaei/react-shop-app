@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://mahdi-shop.github.io/react-shop-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -20,6 +23,7 @@
     "@tailwindcss/vite": "^4.3.0",
     "axios": "^1.18.0",
     "bootstrap": "^5.3.8",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^1.21.0",
     "react": "^19.2.6",
     "react-bootstrap": "^2.10.10",
