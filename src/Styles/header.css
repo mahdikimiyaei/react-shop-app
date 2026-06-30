@@ -1,0 +1,25 @@
+.activeBtn {
+  background: linear-gradient(135deg, #06b6d4, #2563eb) !important;
+  color: #fff !important;
+  border-radius: 12px !important;
+  font-weight: bold !important;
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.4) !important;
+  transition: all 0.3s ease;
+}
+
+.activeBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.5) !important;
+}
+
+.inactiveBtn {
+  background: #374151 !important;
+  color: #fff !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease;
+}
+
+.inactiveBtn:hover {
+  background: #4b5563 !important;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "لپ‌تاپ Lenovo IdeaPad 3",
+      "price": 28500000,
+      "description": "لپ‌تاپ مناسب برای کارهای روزمره، برنامه‌نویسی و استفاده دانشجویی با پردازنده Core i5 و حافظه SSD."
+    },
+    {
+      "id": "2",
+      "name": "ماوس بی‌سیم Logitech M185",
+      "price": 750000,
+      "description": "ماوس بی‌سیم سبک و خوش‌دست با برد ۱۰ متر و عمر باتری طولانی، مناسب استفاده روزانه."
+    },
+    {
+      "id": "3",
+      "name": "کیبورد مکانیکی Redragon K552",
+      "price": 3200000,
+      "description": "کیبورد مکانیکی با نورپردازی RGB، کلیدهای مقاوم و مناسب برای تایپ و بازی."
+    },
+    {
+      "id": "4",
+      "name": "هدفون Sony WH-CH520",
+      "price": 4100000,
+      "description": "هدفون بلوتوثی با کیفیت صدای شفاف، باتری قدرتمند و طراحی سبک برای استفاده طولانی‌مدت."
+    },
+    {
+      "id": "5",
+      "name": "مانیتور Samsung 24 اینچ",
+      "price": 8900000,
+      "description": "مانیتور Full HD با پنل IPS، مناسب برای برنامه‌نویسی، طراحی و تماشای فیلم."
+    },
+    {
+      "id": "K6ccMEmMeVc",
+      "name": "گوشی موبایل Samsung Galaxy A56",
+      "price": 60000000,
+      "description": "محصولی عالی"
+    },
+    {
+      "id": "hvQ2YLztDn0",
+      "name": "گوشی موبایل Samsung Galaxy A56",
+      "price": 500000,
+      "description": "یک محصول خوب"
+    },
+    {
+      "id": "DTMSMexE67Y",
+      "name": "گوشی موبایل Samsung Galaxy A56",
+      "price": 50000000,
+      "description": "a good mobile phone for game"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
