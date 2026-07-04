@@ -11,7 +11,7 @@ export default function ThemeProvider({children}: {children: ReactNode}) {
         if (savedTheme === "light" || savedTheme === "dark") {
             setTheme(savedTheme);
         }
-    }, [])
+    }, []);
 
     const toggleTheme = () => {
         setTheme((prev) => {
